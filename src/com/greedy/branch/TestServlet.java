@@ -13,7 +13,8 @@ public class TestServlet extends HttpServlet {
         request.getRequestDispatcher("/WEB-INF/views/branch/result.jsp")
                 .forward(request, response);
         System.out.println("request = " + request);
-        //test
+        //test222222tttt
+        //이슈 만들고 난뒤
     }
 
     @Override
