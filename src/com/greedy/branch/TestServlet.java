@@ -13,7 +13,7 @@ public class TestServlet extends HttpServlet {
         request.getRequestDispatcher("/WEB-INF/views/branch/result.jsp")
                 .forward(request, response);
         System.out.println("request = " + request);
-        //test
+        //test22222
     }
 
     @Override
