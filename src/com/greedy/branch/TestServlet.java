@@ -12,6 +12,8 @@ public class TestServlet extends HttpServlet {
         request.setAttribute("test", "git branch test입니다.");
         request.getRequestDispatcher("/WEB-INF/views/branch/result.jsp")
                 .forward(request, response);
+        System.out.println("request = " + request);
+        //test
     }
 
     @Override
